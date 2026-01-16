@@ -1,9 +1,9 @@
 import React from 'react'
-import { AiOutlineCopyrightCircle, AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import ScrollAnimation from './ScrollAnimation'
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear()
+  // const currentYear = new Date().getFullYear()
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
