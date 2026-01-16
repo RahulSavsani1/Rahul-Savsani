@@ -1,0 +1,237 @@
+.skills-section {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #fef9f3, #fefcf8, #fef9f3);
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.skills-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #111827;
+}
+
+.skills-header {
+  margin-bottom: 4rem;
+}
+
+.skills-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .skills-title {
+    font-size: 3.75rem;
+  }
+}
+
+.skills-title-accent {
+  color: #059669;
+}
+
+.skills-subtitle {
+  color: #4b5563;
+  font-size: 1.125rem;
+}
+
+.skills-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.filter-btn:hover {
+  background: #d1d5db;
+  color: #111827;
+}
+
+.filter-btn.active {
+  background: linear-gradient(to right, #059669, #0d9488);
+  color: white;
+  box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.5);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.skill-card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  border: 2px solid #f3f4f6;
+}
+
+.skill-card:hover {
+  border-color: #86efac;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.skill-card.orange-red {
+  background: linear-gradient(to bottom right, #fed7aa, #fee2e2);
+}
+
+.skill-card.blue-cyan {
+  background: linear-gradient(to bottom right, #dbeafe, #cffafe);
+}
+
+.skill-card.yellow-amber {
+  background: linear-gradient(to bottom right, #fef3c7, #fde68a);
+}
+
+.skill-card.blue-indigo {
+  background: linear-gradient(to bottom right, #dbeafe, #e0e7ff);
+}
+
+.skill-card.cyan-teal {
+  background: linear-gradient(to bottom right, #cffafe, #ccfbf1);
+}
+
+.skill-card.gray {
+  background: linear-gradient(to bottom right, #f3f4f6, #e5e7eb);
+}
+
+.skill-card.cyan-blue {
+  background: linear-gradient(to bottom right, #cffafe, #dbeafe);
+}
+
+.skill-card.purple-indigo {
+  background: linear-gradient(to bottom right, #e9d5ff, #e0e7ff);
+}
+
+.skill-card.emerald-green {
+  background: linear-gradient(to bottom right, #d1fae5, #d1fae5);
+}
+
+.skill-card.orange-amber {
+  background: linear-gradient(to bottom right, #fed7aa, #fde68a);
+}
+
+.skill-card.red-orange {
+  background: linear-gradient(to bottom right, #fee2e2, #fed7aa);
+}
+
+.skill-card.purple-pink {
+  background: linear-gradient(to bottom right, #e9d5ff, #fce7f3);
+}
+
+.skill-card.green-emerald {
+  background: linear-gradient(to bottom right, #d1fae5, #a7f3d0);
+}
+
+.skill-card.teal-cyan {
+  background: linear-gradient(to bottom right, #ccfbf1, #cffafe);
+}
+
+.skill-card.red-pink {
+  background: linear-gradient(to bottom right, #fee2e2, #fce7f3);
+}
+
+.skill-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.skill-category {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.skills-summary {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .skills-summary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.summary-card {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.summary-card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.summary-number {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.summary-number.emerald {
+  color: #059669;
+}
+
+.summary-number.amber {
+  color: #d97706;
+}
+
+.summary-number.orange {
+  color: #ea580c;
+}
+
+.summary-label {
+  color: #374151;
+}

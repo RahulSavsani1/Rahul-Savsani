@@ -1,0 +1,233 @@
+.contact-section {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #fef9f3, #fefcf8, #fef9f3);
+  padding: 1rem;
+  color: #111827;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .contact-title {
+    font-size: 3.75rem;
+  }
+}
+
+.contact-title-accent {
+  color: #059669;
+}
+
+.title-underline.center {
+  margin: 0 auto 1rem;
+}
+
+.contact-subtitle {
+  color: #4b5563;
+  font-size: 1.125rem;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .contact-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-method-link {
+  display: block;
+  text-decoration: none;
+}
+
+.contact-method-card {
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 2px solid #f3f4f6;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.contact-method-card:hover {
+  border-color: #86efac;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.contact-method-card.emerald-teal {
+  background: linear-gradient(to bottom right, #d1fae5, #ccfbf1);
+}
+
+.contact-method-card.amber-orange {
+  background: linear-gradient(to bottom right, #fde68a, #fed7aa);
+}
+
+.contact-method-card.blue-indigo {
+  background: linear-gradient(to bottom right, #dbeafe, #e0e7ff);
+}
+
+.contact-method-card.gray {
+  background: linear-gradient(to bottom right, #f3f4f6, #e5e7eb);
+}
+
+.contact-method-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact-method-icon-wrapper {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  transition: transform 0.3s;
+}
+
+.contact-method-card:hover .contact-method-icon-wrapper {
+  transform: scale(1.1);
+}
+
+.contact-method-icon-wrapper.emerald-teal-dark {
+  background: linear-gradient(to right, #a7f3d0, #99f6e4);
+}
+
+.contact-method-icon-wrapper.amber-orange-dark {
+  background: linear-gradient(to right, #fde68a, #fed7aa);
+}
+
+.contact-method-icon-wrapper.blue-indigo-dark {
+  background: linear-gradient(to right, #bfdbfe, #c7d2fe);
+}
+
+.contact-method-icon-wrapper.gray-dark {
+  background: linear-gradient(to right, #e5e7eb, #d1d5db);
+}
+
+.contact-method-icon {
+  color: #111827;
+  font-size: 2.5rem;
+}
+
+.contact-method-info {
+  flex: 1;
+}
+
+.contact-method-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.contact-method-value {
+  color: #4b5563;
+  transition: color 0.3s;
+}
+
+.contact-method-card:hover .contact-method-value {
+  color: #111827;
+}
+
+.contact-form-wrapper {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #059669;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: block;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  color: #111827;
+  transition: all 0.3s;
+  font-family: inherit;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+.form-textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+.form-submit {
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(to right, #059669, #0d9488);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.5);
+}
+
+.form-submit:hover {
+  background: linear-gradient(to right, #047857, #0f766e);
+  transform: translateY(-0.5rem);
+  box-shadow: 0 20px 25px -5px rgba(16, 185, 129, 0.5);
+}
