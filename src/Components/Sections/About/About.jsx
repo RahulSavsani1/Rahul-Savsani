@@ -50,10 +50,10 @@ export default function About() {
             <div className="about-card">
               <h3 className="about-card-title emerald">Who I Am</h3>
               <p className="about-card-text">
-                I'm an IT graduate from IIIT, BBSR, and a passionate web developer with 2+ years of experience in the Full stack. I thrive on creating innovative solutions and bringing ideas to life through code.
+                I'm an IT graduate from IIIT, BBSR, and a passionate software developer with 2+ years of experience in the Full stack. I thrive on creating innovative solutions and bringing ideas to life through code.
               </p>
               <p className="about-card-text">
-                My journey in web development has been driven by curiosity and a commitment to continuous learning. I'm always exploring new technologies and best practices to enhance my skills.
+                My journey in software development has been driven by curiosity and a commitment to continuous learning. I'm always exploring new technologies and best practices to enhance my skills.
               </p>
             </div>
           </ScrollAnimation>

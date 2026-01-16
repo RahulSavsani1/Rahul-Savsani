@@ -56,7 +56,7 @@ export default function Footer() {
             <div>
               <h3 className="text-3xl font-bold text-emerald-600 mb-4">Rahul Savsani</h3>
               <p className="text-gray-600 mb-4">
-                Full Stack Developer passionate about creating innovative web solutions.
+                Software Developer passionate about creating innovative full stack solutions.
               </p>
               <div className="flex gap-4">
                 {socialLinks.map((social, index) => (

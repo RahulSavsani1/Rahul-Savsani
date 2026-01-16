@@ -23,10 +23,10 @@ export default function Hero({ scrollToSection }) {
           </h1>
           <div className="hero-subtitle">
             <h2 className="hero-role">
-              Full Stack Developer
+              Software Developer
             </h2>
             <p className="hero-description">
-              Crafting beautiful and functional web experiences with modern technologies
+              Crafting beautiful and functional software with modern technologies
             </p>
           </div>
           <div className="hero-buttons">
