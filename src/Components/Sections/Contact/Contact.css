@@ -69,6 +69,23 @@
   text-decoration: none;
 }
 
+.contact-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .contact-methods-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.non-clickable {
+  cursor: none;
+}
+
 .contact-method-card {
   border-radius: 1rem;
   padding: 1.5rem;

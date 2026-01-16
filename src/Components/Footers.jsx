@@ -121,10 +121,10 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-200 my-8"></div>
+        {/* <div className="border-t border-gray-200 my-8"></div> */}
 
         {/* Copyright */}
-        <ScrollAnimation direction="up" delay={300}>
+        {/* <ScrollAnimation direction="up" delay={300}>
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
               <AiOutlineCopyrightCircle />
@@ -134,7 +134,7 @@ export default function Footer() {
               Built with <span className="text-emerald-500">❤</span> using React & Tailwind CSS
             </p>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </footer>
   )

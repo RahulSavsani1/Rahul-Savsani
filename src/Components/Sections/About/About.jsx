@@ -46,7 +46,7 @@ export default function About() {
         </ScrollAnimation>
 
         <div className="about-cards">
-          <ScrollAnimation direction="right" delay={100}>
+          <ScrollAnimation direction="up" delay={100}>
             <div className="about-card">
               <h3 className="about-card-title emerald">Who I Am</h3>
               <p className="about-card-text">
@@ -58,7 +58,7 @@ export default function About() {
             </div>
           </ScrollAnimation>
 
-          <ScrollAnimation direction="left" delay={200}>
+          <ScrollAnimation direction="up" delay={200}>
             <div className="about-card">
               <h3 className="about-card-title amber">My Approach</h3>
               <p className="about-card-text">
@@ -94,7 +94,7 @@ export default function About() {
         </div>
 
         <div className="about-bottom">
-          <ScrollAnimation direction="right" delay={0}>
+          <ScrollAnimation direction="up" delay={0}>
             <div className="activities-card">
               <div className="activities-header">
                 <FaVolleyballBall className="activities-icon emerald" />
@@ -111,7 +111,7 @@ export default function About() {
             </div>
           </ScrollAnimation>
 
-          <ScrollAnimation direction="left" delay={100}>
+          <ScrollAnimation direction="up" delay={100}>
             <div className="languages-card">
               <div className="languages-header">
                 <FaLanguage className="languages-icon amber" />

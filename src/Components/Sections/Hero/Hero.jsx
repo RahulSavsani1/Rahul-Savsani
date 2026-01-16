@@ -13,7 +13,7 @@ export default function Hero({ scrollToSection }) {
       </div>
 
       <div className="hero-container">
-        <ScrollAnimation direction="right" delay={100} className="hero-content">
+        <ScrollAnimation direction="up" delay={100} className="hero-content">
           <div className="hero-greeting">
             <span className="hero-greeting-text">Hello, I'm</span>
           </div>
@@ -46,7 +46,7 @@ export default function Hero({ scrollToSection }) {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation direction="left" delay={300} className="hero-image-wrapper">
+        <ScrollAnimation direction="up" delay={300} className="hero-image-wrapper">
           <div className="hero-image-container">
             <div className="hero-image-glow"></div>
             <div className="hero-image-inner">
